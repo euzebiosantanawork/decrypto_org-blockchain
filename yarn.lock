@@ -1,0 +1,55 @@
+
+{
+  "name": "blockchain-course-db",
+  "version": "1.0.0",
+  "description": "The db for the Introduction to Blockchains course",
+  "main": "db.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "engines": {
+    "node": ">=10.8.0"
+  },
+  "contributors": [
+    {
+      "name": "Christos Nasikas",
+      "email": "xristosnasikas@gmail.com"
+    },
+    {
+      "name": "Dionysis Zindros",
+      "email": "dionyziz@gmail.com"
+    }
+  ],
+  "repository": "github:decrypto/blockchain-course",
+  "homepage": "https://blockchain-course.org/",
+  "bugs": "https://github.com/decrypto-org/blockchain-course/issues",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "^6.0.0",
+    "lowdb": "^1.0.0",
+    "pg": "^7.4.3",
+    "sequelize": "^5.8.2",
+    "sequelize-cli": "^5.4.0",
+    "solc": "^0.5.7",
+    "web3": "1.0.0-beta.37",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "run.env": "^1.0.1",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "/build/",
+      "**/migrations/*",
+      "**/seeders/*",
+      "**/models/*"
+    ]
+  },
+  "engine": {
+    "node": ">=8.11"
+  }
+}
